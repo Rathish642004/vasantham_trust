@@ -282,7 +282,6 @@ export function AddEventPhotoForm({ eventId }: AddEventPhotoFormProps) {
               accept="image/*"
               // @ts-expect-error - webkitdirectory is not in the type definition
               webkitdirectory=""
-              // @ts-expect-error - directory is not in the type definition
               directory=""
               multiple
               onChange={(e) => handleFileSelect(e.target.files)}
